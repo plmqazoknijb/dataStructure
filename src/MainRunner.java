@@ -1,18 +1,12 @@
+// 실행을 위한 코드입니다. 수정하지 마세요.
 public class MainRunner
 {
     public static void main(String[] args)
     {
         ArrayList arraylist = new ArrayList();
-        arraylist.addLast(10);
-        arraylist.addLast(20);
-        arraylist.addLast(30);
-
-        if(arraylist.indexOf(20)!=1 || arraylist.indexOf(100)!=-1)
-        {
-            System.out.println("틀렸습니다. 다시 잘 생각해보세요");
-            return ;
+        for(int i=0; i<1000; i++){
+            arraylist.addLast(i);
         }
-
-        System.out.println("제출하세요.");
+        return ;
     }
 }
